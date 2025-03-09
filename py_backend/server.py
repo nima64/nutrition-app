@@ -3,7 +3,7 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
 
-cred = credentials.Certificate("nutrition-app-a791d-firebase-adminsdk-fbsvc-fea7e0cb21.json")
+cred = credentials.Certificate("nutrition-app-a791d-firebase-adminsdk-fbsvc-0bdf656448.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://nutrition-app-a791d-default-rtdb.firebaseio.com/'  # Replace with your database URL
 })
